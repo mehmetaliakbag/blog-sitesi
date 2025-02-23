@@ -1,0 +1,66 @@
+/* Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Arka Plan Rengi */
+    color: #333; /* Metin Rengi */
+    margin: 0;
+    padding: 0;
+}
+
+/* Menü Stilleri */
+nav {
+    background-color: #333; /* Menü Arka Plan Rengi */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Başlık Stili */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Son Gönderiler Kartı Stilleri */
+.post-summary {
+    background-color: white; /* Kart Arka Plan Rengi */
+    border-radius: 10px; /* Yuvarlatılmış Köşeler */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgeleme Efekti */
+}
+
+.post-summary h3 {
+    margin-top: 0;
+}
+
+.post-summary a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer Stili */
+footer {
+    background-color: #333; /* Footer Arka Plan Rengi */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
